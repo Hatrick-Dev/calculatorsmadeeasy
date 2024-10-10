@@ -133,7 +133,7 @@ function pcl(){
 
     pclr = (pofdm * pof);
 
-    window.alert(`${JSON.stringify(povict)}% of ${JSON.stringify(pof)} is ${JSON.stringify(pclr)}`)
+    window.alert(`${JSON.stringify(pof)}% of ${JSON.stringify(povict)} is ${JSON.stringify(pclr)}`)
 
 }
 
