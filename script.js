@@ -122,3 +122,29 @@ function cmi(){
     window.alert(`The value in inches is ${JSON.stringify(ires)}`);
     
 }
+
+function pcl(){
+
+    const povict = parseFloat(prompt("What is x percent of y; Enter the value of x"));
+
+    const pof = parseFloat(prompt(`What is ${JSON.stringify(povict)} percent of y; Enter the value of y`));
+
+    pofdm = (pof/100);
+
+    pclr = (pofdm * povict);
+
+    window.alert(`${JSON.stringify(pof)}% of ${JSON.stringify(povict)} is ${JSON.stringify(pclr)}`)
+
+}
+
+function tpcl(){
+
+    const xvartpcl = parseFloat(prompt("x is what percentage of y; Enter the value of x"));
+
+    const yvartpcl = parseFloat(prompt(`${JSON.stringify(xvartpcl)} is what percentage of y; Enter the value of y`));
+
+    tpclr = ((xvartpcl/yvartpcl) * 100);
+
+    window.alert(`${JSON.stringify(xvartpcl)} is ${JSON.stringify(tpclr)}% of ${JSON.stringify(yvartpcl)}`);
+    
+}
