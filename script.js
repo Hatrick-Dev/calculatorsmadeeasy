@@ -129,11 +129,11 @@ function pcl(){
 
     const pof = parseFloat(prompt(`What is ${JSON.stringify(povict)} percent of y; Enter the value of y`));
 
-    pofdm = (pof/100);
+    pofdm = (povict/100);
 
-    pclr = (pofdm * povict);
+    pclr = (pofdm * pof);
 
-    window.alert(`${JSON.stringify(pof)}% of ${JSON.stringify(povict)} is ${JSON.stringify(pclr)}`)
+    window.alert(`${JSON.stringify(povict)}% of ${JSON.stringify(pof)} is ${JSON.stringify(pclr)}`)
 
 }
 
